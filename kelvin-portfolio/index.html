@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="The personal digital portfolio of Kelvin Kenneth Parone, an Information Technology student and aspiring UI/UX designer.">
+
+    <meta name="author" content="Kelvin Kenneth Parone">
+
+    <title>Kelvin Kenneth Parone | UI/UX &amp; IT Portfolio</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS STYLESHEET -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- LUCIDE ICONS -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+</head>
+
+<body>
+
+    <!-- =========================
+         MAIN WEBSITE CONTAINER
+    ========================== -->
+
+    <div id="app">
+
+        <!-- TOP SCROLL PROGRESS BAR -->
+        <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+        <!-- AMBIENT CURSOR SPOTLIGHT -->
+        <div class="cursor-spotlight" id="cursor-spotlight" aria-hidden="true"></div>
+
+        <!-- =========================
+             NAVIGATION BAR
+        ========================== -->
+
+        <header class="navbar">
+
+            <!-- LOGO -->
+            <a href="#home" class="logo">
+                K<span>.</span>
+            </a>
+
+            <!-- NAVIGATION LINKS -->
+            <nav class="nav-links">
+
+                <a href="#home" class="active">Home</a>
+
+                <a href="#about">About</a>
+
+                <a href="#skills">Skills</a>
+
+                <a href="#projects">Projects</a>
+
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+            <button type="button" class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <!-- CONTACT BUTTON -->
+            <a href="#contact" class="nav-button">
+
+                Let's Talk
+
+                <i data-lucide="arrow-up-right"></i>
+
+            </a>
+
+        </header>
+
+
+        <!-- =========================
+             HERO SECTION
+        ========================== -->
+
+        <section class="hero" id="home">
+
+            <!-- HERO CONTENT -->
+            <div class="hero-content">
+
+                <!-- AVAILABILITY STATUS -->
+                <div class="availability">
+
+                    <span class="status-dot"></span>
+
+                    Open to Opportunities
+
+                </div>
+
+
+                <!-- INTRODUCTION -->
+                <p class="hero-greeting">
+                    Hello, I'm
+                </p>
+
+
+                <!-- NAME -->
+                <h1>
+
+                    Kelvin Kenneth
+
+                    <span class="gradient-text">
+                        Parone.
+                    </span>
+
+                </h1>
+
+
+                <!-- ANIMATED PROFESSION -->
+                <h2>
+
+                    An aspiring
+
+                    <span id="typing-text"></span>
+
+                    <span class="cursor">|</span>
+
+                </h2>
+
+
+                <!-- DESCRIPTION -->
+                <p class="hero-description">
+
+                    I am an Information Technology student passionate
+                    about creating modern digital experiences,
+                    developing functional systems, and continuously
+                    learning new technologies.
+
+                </p>
+
+
+                <!-- HERO BUTTONS -->
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="primary-button">
+
+                        Explore My Work
+
+                        <i data-lucide="arrow-up-right"></i>
+
+                    </a>
+
+
+                    <a href="#contact" class="secondary-button">
+
+                        Get In Touch
+
+                    </a>
+
+                </div>
+
+
+                <!-- SOCIAL MEDIA LINKS -->
+                <div class="hero-socials">
+
+                    <a
+                        href="https://www.linkedin.com/in/kelvin-kenneth-parone-899521438/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                            <rect width="4" height="12" x="2" y="9"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                    </a>
+
+
+                    <a
+                        href="mailto:kelvinkenneth.parone@gmail.com"
+                        aria-label="Email">
+
+                        <i data-lucide="mail"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 PROFILE IMAGE
+            ========================== -->
+
+            <div class="hero-image-container">
+
+                <!-- BACKGROUND GLOW -->
+                <div class="image-glow"></div>
+
+
+                <!-- PROFILE IMAGE -->
+                <div class="profile-image">
+
+                    <img
+                        src="assets/profile.jpg"
+                        alt="Kelvin Kenneth Parone">
+
+                </div>
+
+
+                <!-- FLOATING INFORMATION CARD -->
+                <div class="floating-card">
+
+                    <i data-lucide="code-2"></i>
+
+                    <div>
+
+                        <strong>IT Student</strong>
+
+                        <span>Future Developer</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ABOUT SECTION
+        ========================== -->
+
+        <section class="about-section" id="about">
+
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2>Designing interfaces with <span class="gradient-text">purpose &amp; clarity.</span></h2>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-text">
+                    <p>
+                        I'm Kelvin Kenneth Parone, an Information Technology student with a strong interest in UI/UX design and modern web interfaces. I enjoy turning complex ideas and functional workflows into clean, intuitive user experiences.
+                    </p>
+                    <p>
+                        Combining a technical IT foundation with visual and layout design helps me bridge the gap between how a product looks and how smoothly it works for real users.
+                    </p>
+                </div>
+
+                <div class="about-highlights">
+                    <div class="about-card">
+                        <h3>UI/UX &amp; Visual Design</h3>
+                        <p>Clean layouts, clear visual hierarchy, responsive components, and user-friendly flows.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Front-End &amp; Systems</h3>
+                        <p>Building structured web pages and interactive interfaces backed by solid IT fundamentals.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SKILLS SECTION
+        ========================== -->
+
+        <section id="skills">
+
+            <div class="section-header">
+                <span class="section-tag">Skills &amp; Tools</span>
+                <h2>What I work with to <span class="gradient-text">bring ideas to life.</span></h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <h3>UI/UX &amp; Visual Design</h3>
+                    <p>Crafting clean interfaces, intuitive user journeys, and balanced visual layouts.</p>
+                    <div class="skill-tags">
+                        <span>UI Design</span>
+                        <span>UX Thinking</span>
+                        <span>Wireframing</span>
+                        <span>Visual Hierarchy</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Front-End &amp; IT</h3>
+                    <p>Translating designs into responsive web pages and functional systems.</p>
+                    <div class="skill-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Responsive Design</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Design &amp; Dev Tools</h3>
+                    <p>Tools I use for prototyping, graphic edits, and building projects.</p>
+                    <div class="skill-tags">
+                        <span>Figma</span>
+                        <span>Canva</span>
+                        <span>VS Code</span>
+                        <span>Git / GitHub</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECTS SECTION
+        ========================== -->
+
+        <section id="projects">
+
+            <div class="section-header">
+                <span class="section-tag">Selected Work</span>
+                <h2>Projects &amp; <span class="gradient-text">UI/UX concepts.</span></h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-category">UI/UX &amp; Web</span>
+                        <a href="#contact" class="project-link" aria-label="View Project Details">
+                            <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </div>
+                    <h3>Personal Portfolio Concept</h3>
+                    <p>Dark-mode responsive portfolio focused on clean visual hierarchy, smooth micro-interactions, and clear navigation.</p>
+                    <div class="project-tags">
+                        <span>UI/UX</span>
+                        <span>HTML / CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-category">Interface Design</span>
+                        <a href="#contact" class="project-link" aria-label="View Project Details">
+                            <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </div>
+                    <h3>Web &amp; Mobile UI Layouts</h3>
+                    <p>Structured screen flows, card components, and user-friendly layouts designed around everyday usability.</p>
+                    <div class="project-tags">
+                        <span>Figma</span>
+                        <span>Wireframing</span>
+                        <span>Responsive UI</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-category">IT &amp; Systems</span>
+                        <a href="#contact" class="project-link" aria-label="View Project Details">
+                            <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </div>
+                    <h3>Student &amp; System Projects</h3>
+                    <p>Academic and practical builds combining structured logic, clean forms, and organized information display.</p>
+                    <div class="project-tags">
+                        <span>IT Systems</span>
+                        <span>UI Structure</span>
+                        <span>Problem Solving</span>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT SECTION
+        ========================== -->
+
+        <section id="contact">
+
+            <div class="section-header">
+                <span class="section-tag">Contact</span>
+                <h2>Let's build something <span class="gradient-text">clean &amp; useful.</span></h2>
+            </div>
+
+            <div class="contact-grid">
+
+                <div class="contact-info">
+                    <p>
+                        Open to opportunities, collaborations, design feedback, and IT or UI/UX projects. Feel free to send a message or reach out directly by email.
+                    </p>
+
+                    <div class="contact-item">
+                        <span class="contact-label">Email</span>
+                        <div class="contact-email-row">
+                            <a href="mailto:kelvinkenneth.parone@gmail.com">kelvinkenneth.parone@gmail.com</a>
+                            <button type="button" class="copy-email-btn" id="copy-email-btn" aria-label="Copy email address">
+                                Copy
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span class="contact-label">Location</span>
+                        <span>Bicol, Philippines</span>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <input type="hidden" name="access_key" value="a7064982-740d-4484-8306-dd382088b51d">
+                    <input type="hidden" name="subject" value="New Portfolio Message from Kelvin Kenneth Parone's Website">
+                    <input type="hidden" name="from_name" value="Portfolio Contact Form">
+
+                    <div class="form-group">
+                        
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell me about your project or idea..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="primary-button">
+                        Send Message
+                        <i data-lucide="send"></i>
+                    </button>
+
+                    <p class="form-status" id="form-status" aria-live="polite"></p>
+                </form>
+
+            </div>
+
+        </section>
+
+        <!-- =========================
+             FOOTER
+        ========================== -->
+
+        <footer class="site-footer">
+            <p>&copy; <span id="year">2026</span> Kelvin Kenneth Parone. All rights reserved.</p>
+        </footer>
+
+        <!-- COPY TOAST NOTIFICATION -->
+        <div class="toast-notification" id="toast-notification" role="status" aria-live="polite">
+            Email copied to clipboard!
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
